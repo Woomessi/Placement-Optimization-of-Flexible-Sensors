@@ -9,13 +9,13 @@ addpath(genpath('C:\projects\MATLAB\robot_sensor'))
 %%%%%%%%%%%%%%%
 % 连杆三角面片模型输入
 % 待修改
-TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link1.stl');
+TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link6.stl');
 
 position_vertices = TR.Points;% 顶点位置
 connectivity_facets = TR.ConnectivityList;% 面片的顶点连接关系
 
 % 待修改
-load("all_tform_spot_link1.mat");
+load("all_tform_spot_link6.mat");
 
 size_spot = 16; % ToF模块数量
 

@@ -15,5 +15,5 @@ for i = 1:size_spot
         tform_spot{1,i}(1,3),tform_spot{1,i}(2,3),tform_spot{1,i}(3,3),0.05,'Color','b');
 end
 plotFoV(h_cone, fov_horizontal, tform_spot, size_spot)
-% hold off
+hold on
 end

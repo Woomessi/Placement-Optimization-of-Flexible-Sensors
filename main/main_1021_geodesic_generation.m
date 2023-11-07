@@ -9,7 +9,7 @@ addpath(genpath('C:\projects\MATLAB\robot_sensor'))
 %%%%%%%%%%%%%%%
 
 % 连杆三角面片模型输入
-TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link6.stl');
+TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link0.stl');
 position_vertices = TR.Points;% 顶点位置
 connectivity_facets = TR.ConnectivityList;% 面片的顶点连接关系
 size_facets = size(connectivity_facets,1);
@@ -397,7 +397,7 @@ for idx_geodesic = 1:size_all_points_seq
     all_last_spot(:,idx_geodesic) = spot(:,size_sensor);
 
     % 拟合路径点坐标系建立
-    % 在三角面片顶点与形心点中提取距各拟合路径点最近的点
+    % 在三角面片顶点与形心点中提取距各拟合路径点最近的点（注：为保证x方向与y方向垂直，应只取形心向量）
     ID_all = dsearchn(X_refined,spot');
     % ID_all = dsearchn(C,spot');
     % 将各最近点的法向量作为相应路径点的法向量 (x轴基向量)
