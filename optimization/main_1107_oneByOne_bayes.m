@@ -101,9 +101,9 @@ size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 %%% 只使用1个柔性传感器 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idx_link = 6;
-idx_geodesic = 17;% 严格按顺序
-detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
+% idx_link = 6;
+% idx_geodesic = 17;% 严格按顺序
+% detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%% 使用2个柔性传感器 %%%

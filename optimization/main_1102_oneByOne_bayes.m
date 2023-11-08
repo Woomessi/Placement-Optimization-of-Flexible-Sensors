@@ -171,8 +171,8 @@ size_spot = 16;
 %%% 只使用1个柔性传感器 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% fun = @(x)getDetectiveRate_1(x.idx_link1, x.idx_geodesic0, x.idx_geodesic1, x.idx_geodesic2, x.idx_geodesic3, x.idx_geodesic4, x.idx_geodesic5, x.idx_geodesic6,  size_spot, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
-% results = bayesopt(fun,[idx_link1, idx_geodesic0, idx_geodesic1, idx_geodesic2, idx_geodesic3, idx_geodesic4, idx_geodesic5, idx_geodesic6],'MaxObjectiveEvaluations',60,'UseParallel',true,'PlotFcn',{});
+fun = @(x)getDetectiveRate_1(x.idx_link1, x.idx_geodesic0, x.idx_geodesic1, x.idx_geodesic2, x.idx_geodesic3, x.idx_geodesic4, x.idx_geodesic5, x.idx_geodesic6,  size_spot, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
+results = bayesopt(fun,[idx_link1, idx_geodesic0, idx_geodesic1, idx_geodesic2, idx_geodesic3, idx_geodesic4, idx_geodesic5, idx_geodesic6],'MaxObjectiveEvaluations',60,'UseParallel',true,'PlotFcn',{});
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%% 使用2个柔性传感器 %%%
