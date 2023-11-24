@@ -104,7 +104,7 @@ load("all_tform_spot_link5.mat",'all_tform_spot');
 all_tform_spot_link5 = all_tform_spot;
 size_all_tform_spot_link5 = size(all_tform_spot_link5,2);
 
-load("all_tform_spot_link6.mat",'all_tform_spot');
+load("all_tform_spot_link6_3.mat",'all_tform_spot');
 all_tform_spot_link6 = all_tform_spot;
 size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 
@@ -115,7 +115,7 @@ size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 % idx_geodesic = 18595;
 
 idx_link = 0:6;
-idx_geodesic = [6929, 1142, 20761, 10200, 10451, 13100, 17];
+idx_geodesic = [6929, 1142, 20761, 10200, 10451, 13100, 65];
 
 % 提取当前连杆TOF模块的齐次变换矩阵
 size_sensor = size(idx_link,2);

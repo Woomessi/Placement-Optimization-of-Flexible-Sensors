@@ -103,17 +103,17 @@ load("all_tform_spot_link5.mat",'all_tform_spot');
 all_tform_spot_link5 = all_tform_spot;
 size_all_tform_spot_link5 = size(all_tform_spot_link5,2);
 
-load("all_tform_spot_link6.mat",'all_tform_spot');
+load("all_tform_spot_link6_3.mat",'all_tform_spot');
 all_tform_spot_link6 = all_tform_spot;
 size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 
-idx_link = 0:6;
-idx_geodesic = [6929, 1142, 20761, 10200, 10451, 13100, 17];% 严格按顺序
+% idx_link = 0:6;
+% idx_geodesic = [6929, 1142, 20761, 10200, 10451, 13100, 17];% 严格按顺序
 
 % idx_link = [0,1,2,4,5,6];
 % idx_geodesic = [6929, 1142, 20761, 10451, 13100, 17];% 严格按顺序
 
-detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
+% detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
 % detective_rate = getDetectiveRate_single(1, 11529, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
 % detective_rate = getDetectiveRate_multiple([1,2], [529,1629], 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
 % detective_rate = getDetectiveRate_multiple3(0, 5, 100, 200, 300, 400, 500, 600, 700,  16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);

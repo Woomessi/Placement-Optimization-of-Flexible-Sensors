@@ -9,7 +9,7 @@ addpath(genpath('C:\projects\MATLAB\robot_sensor'))
 %%%%%%%%%%%%%%%
 
 % 连杆三角面片模型输入
-TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link0.stl');
+TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link6.stl');
 position_vertices = TR.Points;% 顶点位置
 connectivity_facets = TR.ConnectivityList;% 面片的顶点连接关系
 size_facets = size(connectivity_facets,1);
@@ -260,7 +260,6 @@ for index_facet = 1:size_facets% 遍历各起点（各三角面片形心点）
             % 更新路径信息
             points_seq(round,:) = point_current;
             indices_facets_seq(round) = index_facet_current;
-
             % 防止陷入局部点
             if round >1
                 % if points_seq(round,:) == points_seq(round-1,:)

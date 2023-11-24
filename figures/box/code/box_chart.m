@@ -1,0 +1,39 @@
+clear
+clc
+close all
+clear options;
+addpath(genpath('C:\projects\MATLAB\robot_sensor'))
+
+load("C:\projects\MATLAB\robot_sensor\figures\box\raw_data\zeta_opt.txt","zeta_opt")
+load("C:\projects\MATLAB\robot_sensor\figures\box\raw_data\zeta_conventional.txt","zeta_conventional")
+
+zeta_opt = zeta_opt';
+b1 = boxchart(zeta_opt,...
+         'BoxWidth',0.35,'LineWidth',0.9,...
+         'BoxFaceAlpha',0.2,...
+         'WhiskerLineColor',"black",...
+         'BoxFaceColorMode','manual','BoxFaceColor',"#7E2F8E",...
+         'BoxEdgeColorMode','manual','BoxEdgeColor',"#7E2F8E",...
+         'BoxMedianLineColorMode','manual','BoxMedianLineColor',"#7E2F8E");
+
+xlabel('$\mathcal{X}_n$: Placement with $n$ sensors','Interpreter','latex','FontSize',10)
+ylabel('$\zeta$(\%)','Interpreter','latex','FontSize',10)
+
+xaxis_properties= get(gca, 'XAxis');
+xaxis_properties.TickLabelInterpreter = 'latex'; 
+
+ax = gca;
+ax.FontSize = 10;
+ax.FontName = "Times New Roman";
+ax.XTickLabel = {'$\mathcal{X}_1$','$\mathcal{X}_2$','$\mathcal{X}_3$','$\mathcal{X}_4$','$\mathcal{X}_5$','$\mathcal{X}_6$','$\mathcal{X}_7$'};
+hold on
+
+b2 = boxchart(7*ones(1,32),zeta_conventional,...
+         'BoxWidth',0.35,'LineWidth',0.9,...
+         'BoxFaceAlpha',0.2,...
+         'WhiskerLineColor',"black",...
+         'BoxFaceColorMode','manual','BoxFaceColor',"#D95319",...
+         'BoxEdgeColorMode','manual','BoxEdgeColor',"#D95319",...
+         'BoxMedianLineColorMode','manual','BoxMedianLineColor',"#D95319");
+
+legend({'Optimized','Non-optimized'},'FontSize',10,'Location','southeast')

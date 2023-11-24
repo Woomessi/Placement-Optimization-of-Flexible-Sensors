@@ -10,8 +10,11 @@ tic
 %%%%%%%%%%%%%%%%%%%
 
 % 仿真参数
-size_sim = 6000; % 蒙特卡洛模拟次数
+size_sim = 3000; % 蒙特卡洛模拟次数
 size_theta_object = 25; % 检测目标圆柱坐标角度均分数
+
+% size_sim = 10000; % 蒙特卡洛模拟次数
+% size_theta_object = 15; % 检测目标圆柱坐标角度均分数
 
 % 传感器参数
 l_sensor = 0.27; % （单位：米）柔性传感器长度
@@ -93,7 +96,8 @@ load("all_tform_spot_link5.mat",'all_tform_spot');
 all_tform_spot_link5 = all_tform_spot;
 size_all_tform_spot_link5 = size(all_tform_spot_link5,2);
 
-load("all_tform_spot_link6.mat",'all_tform_spot');
+% load("all_tform_spot_link6.mat",'all_tform_spot');
+load("all_tform_spot_link6_3.mat",'all_tform_spot');
 all_tform_spot_link6 = all_tform_spot;
 size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 
@@ -101,9 +105,10 @@ size_all_tform_spot_link6 = size(all_tform_spot_link6,2);
 %%% 只使用1个柔性传感器 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% idx_link = 6;
+idx_link = 6;
 % idx_geodesic = 17;% 严格按顺序
-% detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
+idx_geodesic = 65;% 严格按顺序
+detective_rate = -getDetectiveRate_multiple_specific(idx_link, idx_geodesic, 16, size_point_target, size_sim, r_obj_offset, theta_obj_offset, target_homo, q_all, my_robot, size_joint, all_tform_spot_link0, all_tform_spot_link1, all_tform_spot_link2, all_tform_spot_link3, all_tform_spot_link4, all_tform_spot_link5, all_tform_spot_link6, fov_vertical, fov_horizontal, h_cone);
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%% 使用2个柔性传感器 %%%
