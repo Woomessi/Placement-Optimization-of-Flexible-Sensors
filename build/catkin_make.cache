@@ -1,0 +1,2 @@
+detection_rate
+-DCATKIN_DEVEL_PREFIX=/home/woomessi/projects/ROS/RAL_ws/devel -DCMAKE_INSTALL_PREFIX=/home/woomessi/projects/ROS/RAL_ws/install -G Unix Makefiles

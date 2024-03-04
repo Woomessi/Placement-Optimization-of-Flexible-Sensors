@@ -1,0 +1,8 @@
+prefix=/home/woomessi/projects/ROS/RAL_ws/install
+
+Name: detection_rate
+Description: Description of detection_rate
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy message_runtime std_msgs
