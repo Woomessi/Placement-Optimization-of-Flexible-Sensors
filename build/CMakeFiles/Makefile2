@@ -80,6 +80,10 @@ clean: detection_rate/clean
 
 # Recursive "all" directory target.
 detection_rate/all: detection_rate/CMakeFiles/rate_computation.dir/all
+detection_rate/all: detection_rate/CMakeFiles/sensor6.dir/all
+detection_rate/all: detection_rate/CMakeFiles/sensor4.dir/all
+detection_rate/all: detection_rate/CMakeFiles/sensor5.dir/all
+detection_rate/all: detection_rate/CMakeFiles/sensor3.dir/all
 detection_rate/all: detection_rate/CMakeFiles/detection_rate_generate_messages.dir/all
 detection_rate/all: detection_rate/CMakeFiles/sensor1.dir/all
 detection_rate/all: detection_rate/CMakeFiles/sensor2.dir/all
@@ -93,6 +97,10 @@ detection_rate/preinstall:
 
 # Recursive "clean" directory target.
 detection_rate/clean: detection_rate/CMakeFiles/rate_computation.dir/clean
+detection_rate/clean: detection_rate/CMakeFiles/sensor6.dir/clean
+detection_rate/clean: detection_rate/CMakeFiles/sensor4.dir/clean
+detection_rate/clean: detection_rate/CMakeFiles/sensor5.dir/clean
+detection_rate/clean: detection_rate/CMakeFiles/sensor3.dir/clean
 detection_rate/clean: detection_rate/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 detection_rate/clean: detection_rate/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 detection_rate/clean: detection_rate/CMakeFiles/detection_rate_generate_messages_lisp.dir/clean
@@ -452,6 +460,114 @@ rate_computation: detection_rate/CMakeFiles/rate_computation.dir/rule
 detection_rate/CMakeFiles/rate_computation.dir/clean:
 	$(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/clean
 .PHONY : detection_rate/CMakeFiles/rate_computation.dir/clean
+
+#=============================================================================
+# Target rules for target detection_rate/CMakeFiles/sensor6.dir
+
+# All Build rule for target.
+detection_rate/CMakeFiles/sensor6.dir/all:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/depend
+	$(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles --progress-num=28,29 "Built target sensor6"
+.PHONY : detection_rate/CMakeFiles/sensor6.dir/all
+
+# Build rule for subdir invocation for target.
+detection_rate/CMakeFiles/sensor6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 0
+.PHONY : detection_rate/CMakeFiles/sensor6.dir/rule
+
+# Convenience name for target.
+sensor6: detection_rate/CMakeFiles/sensor6.dir/rule
+
+.PHONY : sensor6
+
+# clean rule for target.
+detection_rate/CMakeFiles/sensor6.dir/clean:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/clean
+.PHONY : detection_rate/CMakeFiles/sensor6.dir/clean
+
+#=============================================================================
+# Target rules for target detection_rate/CMakeFiles/sensor4.dir
+
+# All Build rule for target.
+detection_rate/CMakeFiles/sensor4.dir/all:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/depend
+	$(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles --progress-num=24,25 "Built target sensor4"
+.PHONY : detection_rate/CMakeFiles/sensor4.dir/all
+
+# Build rule for subdir invocation for target.
+detection_rate/CMakeFiles/sensor4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 0
+.PHONY : detection_rate/CMakeFiles/sensor4.dir/rule
+
+# Convenience name for target.
+sensor4: detection_rate/CMakeFiles/sensor4.dir/rule
+
+.PHONY : sensor4
+
+# clean rule for target.
+detection_rate/CMakeFiles/sensor4.dir/clean:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/clean
+.PHONY : detection_rate/CMakeFiles/sensor4.dir/clean
+
+#=============================================================================
+# Target rules for target detection_rate/CMakeFiles/sensor5.dir
+
+# All Build rule for target.
+detection_rate/CMakeFiles/sensor5.dir/all:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/depend
+	$(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles --progress-num=26,27 "Built target sensor5"
+.PHONY : detection_rate/CMakeFiles/sensor5.dir/all
+
+# Build rule for subdir invocation for target.
+detection_rate/CMakeFiles/sensor5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 0
+.PHONY : detection_rate/CMakeFiles/sensor5.dir/rule
+
+# Convenience name for target.
+sensor5: detection_rate/CMakeFiles/sensor5.dir/rule
+
+.PHONY : sensor5
+
+# clean rule for target.
+detection_rate/CMakeFiles/sensor5.dir/clean:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/clean
+.PHONY : detection_rate/CMakeFiles/sensor5.dir/clean
+
+#=============================================================================
+# Target rules for target detection_rate/CMakeFiles/sensor3.dir
+
+# All Build rule for target.
+detection_rate/CMakeFiles/sensor3.dir/all:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/depend
+	$(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles --progress-num=22,23 "Built target sensor3"
+.PHONY : detection_rate/CMakeFiles/sensor3.dir/all
+
+# Build rule for subdir invocation for target.
+detection_rate/CMakeFiles/sensor3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/woomessi/projects/ROS/RAL_ws/build/CMakeFiles 0
+.PHONY : detection_rate/CMakeFiles/sensor3.dir/rule
+
+# Convenience name for target.
+sensor3: detection_rate/CMakeFiles/sensor3.dir/rule
+
+.PHONY : sensor3
+
+# clean rule for target.
+detection_rate/CMakeFiles/sensor3.dir/clean:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/clean
+.PHONY : detection_rate/CMakeFiles/sensor3.dir/clean
 
 #=============================================================================
 # Target rules for target detection_rate/CMakeFiles/rosgraph_msgs_generate_messages_py.dir

@@ -9,7 +9,7 @@
         "/opt/ros/noetic/include/**",
         "/home/woomessi/projects/ROS/RAL_ws/src/detection_rate/include/**",
         "/usr/include/**",
-        "/home/woomessi/projects/ROS/RAL_ws/devel/include/detection_rate/**"
+        "/home/woomessi/projects/ROS/RAL_ws/devel/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

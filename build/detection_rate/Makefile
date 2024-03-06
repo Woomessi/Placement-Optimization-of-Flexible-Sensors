@@ -183,6 +183,66 @@ rate_computation/fast:
 .PHONY : rate_computation/fast
 
 # Convenience name for target.
+detection_rate/CMakeFiles/sensor6.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor6.dir/rule
+.PHONY : detection_rate/CMakeFiles/sensor6.dir/rule
+
+# Convenience name for target.
+sensor6: detection_rate/CMakeFiles/sensor6.dir/rule
+
+.PHONY : sensor6
+
+# fast build rule for target.
+sensor6/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/build
+.PHONY : sensor6/fast
+
+# Convenience name for target.
+detection_rate/CMakeFiles/sensor4.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor4.dir/rule
+.PHONY : detection_rate/CMakeFiles/sensor4.dir/rule
+
+# Convenience name for target.
+sensor4: detection_rate/CMakeFiles/sensor4.dir/rule
+
+.PHONY : sensor4
+
+# fast build rule for target.
+sensor4/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/build
+.PHONY : sensor4/fast
+
+# Convenience name for target.
+detection_rate/CMakeFiles/sensor5.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor5.dir/rule
+.PHONY : detection_rate/CMakeFiles/sensor5.dir/rule
+
+# Convenience name for target.
+sensor5: detection_rate/CMakeFiles/sensor5.dir/rule
+
+.PHONY : sensor5
+
+# fast build rule for target.
+sensor5/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/build
+.PHONY : sensor5/fast
+
+# Convenience name for target.
+detection_rate/CMakeFiles/sensor3.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/sensor3.dir/rule
+.PHONY : detection_rate/CMakeFiles/sensor3.dir/rule
+
+# Convenience name for target.
+sensor3: detection_rate/CMakeFiles/sensor3.dir/rule
+
+.PHONY : sensor3
+
+# fast build rule for target.
+sensor3/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/build
+.PHONY : sensor3/fast
+
+# Convenience name for target.
 detection_rate/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : detection_rate/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
@@ -698,6 +758,114 @@ src/sensor2.cpp.s:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor2.dir/build.make detection_rate/CMakeFiles/sensor2.dir/src/sensor2.cpp.s
 .PHONY : src/sensor2.cpp.s
 
+src/sensor3.o: src/sensor3.cpp.o
+
+.PHONY : src/sensor3.o
+
+# target to build an object file
+src/sensor3.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/src/sensor3.cpp.o
+.PHONY : src/sensor3.cpp.o
+
+src/sensor3.i: src/sensor3.cpp.i
+
+.PHONY : src/sensor3.i
+
+# target to preprocess a source file
+src/sensor3.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/src/sensor3.cpp.i
+.PHONY : src/sensor3.cpp.i
+
+src/sensor3.s: src/sensor3.cpp.s
+
+.PHONY : src/sensor3.s
+
+# target to generate assembly for a file
+src/sensor3.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/src/sensor3.cpp.s
+.PHONY : src/sensor3.cpp.s
+
+src/sensor4.o: src/sensor4.cpp.o
+
+.PHONY : src/sensor4.o
+
+# target to build an object file
+src/sensor4.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/src/sensor4.cpp.o
+.PHONY : src/sensor4.cpp.o
+
+src/sensor4.i: src/sensor4.cpp.i
+
+.PHONY : src/sensor4.i
+
+# target to preprocess a source file
+src/sensor4.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/src/sensor4.cpp.i
+.PHONY : src/sensor4.cpp.i
+
+src/sensor4.s: src/sensor4.cpp.s
+
+.PHONY : src/sensor4.s
+
+# target to generate assembly for a file
+src/sensor4.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/src/sensor4.cpp.s
+.PHONY : src/sensor4.cpp.s
+
+src/sensor5.o: src/sensor5.cpp.o
+
+.PHONY : src/sensor5.o
+
+# target to build an object file
+src/sensor5.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/src/sensor5.cpp.o
+.PHONY : src/sensor5.cpp.o
+
+src/sensor5.i: src/sensor5.cpp.i
+
+.PHONY : src/sensor5.i
+
+# target to preprocess a source file
+src/sensor5.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/src/sensor5.cpp.i
+.PHONY : src/sensor5.cpp.i
+
+src/sensor5.s: src/sensor5.cpp.s
+
+.PHONY : src/sensor5.s
+
+# target to generate assembly for a file
+src/sensor5.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/src/sensor5.cpp.s
+.PHONY : src/sensor5.cpp.s
+
+src/sensor6.o: src/sensor6.cpp.o
+
+.PHONY : src/sensor6.o
+
+# target to build an object file
+src/sensor6.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/src/sensor6.cpp.o
+.PHONY : src/sensor6.cpp.o
+
+src/sensor6.i: src/sensor6.cpp.i
+
+.PHONY : src/sensor6.i
+
+# target to preprocess a source file
+src/sensor6.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/src/sensor6.cpp.i
+.PHONY : src/sensor6.cpp.i
+
+src/sensor6.s: src/sensor6.cpp.s
+
+.PHONY : src/sensor6.s
+
+# target to generate assembly for a file
+src/sensor6.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/src/sensor6.cpp.s
+.PHONY : src/sensor6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -709,6 +877,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rate_computation"
+	@echo "... sensor6"
+	@echo "... sensor4"
+	@echo "... sensor5"
+	@echo "... sensor3"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... detection_rate_generate_messages_lisp"
@@ -750,6 +922,18 @@ help:
 	@echo "... src/sensor2.o"
 	@echo "... src/sensor2.i"
 	@echo "... src/sensor2.s"
+	@echo "... src/sensor3.o"
+	@echo "... src/sensor3.i"
+	@echo "... src/sensor3.s"
+	@echo "... src/sensor4.o"
+	@echo "... src/sensor4.i"
+	@echo "... src/sensor4.s"
+	@echo "... src/sensor5.o"
+	@echo "... src/sensor5.i"
+	@echo "... src/sensor5.s"
+	@echo "... src/sensor6.o"
+	@echo "... src/sensor6.i"
+	@echo "... src/sensor6.s"
 .PHONY : help
 
 

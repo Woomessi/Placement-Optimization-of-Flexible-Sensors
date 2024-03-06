@@ -137,6 +137,11 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(sensor1 src/sensor1.cpp)
 add_executable(sensor2 src/sensor2.cpp)
+add_executable(sensor3 src/sensor3.cpp)
+add_executable(sensor4 src/sensor4.cpp)
+add_executable(sensor5 src/sensor5.cpp)
+add_executable(sensor6 src/sensor6.cpp)
+
 add_executable(rate_computation src/rate_computation.cpp)
 
 ## Rename C++ executable without prefix
@@ -155,6 +160,22 @@ target_link_libraries(sensor1
 )
 
 target_link_libraries(sensor2
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(sensor3
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(sensor4
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(sensor5
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(sensor6
   ${catkin_LIBRARIES}
 )
 

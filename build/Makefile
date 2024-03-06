@@ -298,6 +298,58 @@ rate_computation/fast:
 .PHONY : rate_computation/fast
 
 #=============================================================================
+# Target rules for targets named sensor6
+
+# Build rule for target.
+sensor6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor6
+.PHONY : sensor6
+
+# fast build rule for target.
+sensor6/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/build
+.PHONY : sensor6/fast
+
+#=============================================================================
+# Target rules for targets named sensor4
+
+# Build rule for target.
+sensor4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor4
+.PHONY : sensor4
+
+# fast build rule for target.
+sensor4/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor4.dir/build.make detection_rate/CMakeFiles/sensor4.dir/build
+.PHONY : sensor4/fast
+
+#=============================================================================
+# Target rules for targets named sensor5
+
+# Build rule for target.
+sensor5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor5
+.PHONY : sensor5
+
+# fast build rule for target.
+sensor5/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor5.dir/build.make detection_rate/CMakeFiles/sensor5.dir/build
+.PHONY : sensor5/fast
+
+#=============================================================================
+# Target rules for targets named sensor3
+
+# Build rule for target.
+sensor3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor3
+.PHONY : sensor3
+
+# fast build rule for target.
+sensor3/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/sensor3.dir/build.make detection_rate/CMakeFiles/sensor3.dir/build
+.PHONY : sensor3/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
 
 # Build rule for target.
@@ -697,6 +749,10 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... rate_computation"
+	@echo "... sensor6"
+	@echo "... sensor4"
+	@echo "... sensor5"
+	@echo "... sensor3"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... detection_rate_generate_messages_lisp"
