@@ -2,7 +2,7 @@ clear
 clc
 close all
 clear options;
-addpath(genpath('C:\projects\MATLAB\robot_sensor'))
+addpath(genpath('C:\Placement-Optimization-of-Flexible-Sensors-release'))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Preprocessing for the optimization (similar to "detection_simulation.m") %%%
