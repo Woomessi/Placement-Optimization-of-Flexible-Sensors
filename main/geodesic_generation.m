@@ -2,14 +2,14 @@ clear
 clc
 close all
 clear options;
-addpath(genpath('C:\projects\MATLAB\robot_sensor'))
+addpath(genpath('C:\Placement-Optimization-of-Flexible-Sensors-release'))
 
 %%%%%%%%%%%%%%%%%%%%%%
 %%% Initialization %%%
 %%%%%%%%%%%%%%%%%%%%%%
 
 % Input the STL model of the link
-TR = stlread('C:\projects\MATLAB\robot_sensor\franka_description\meshes\visual\link1.stl');
+TR = stlread('C:\Placement-Optimization-of-Flexible-Sensors-release\franka_description\meshes\visual\link1.stl');
 position_vertices = TR.Points;% Vertex position
 connectivity_facets = TR.ConnectivityList;% Facet connectivity
 size_facets = size(connectivity_facets,1);
