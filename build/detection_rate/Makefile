@@ -168,19 +168,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-detection_rate/CMakeFiles/rate_computation.dir/rule:
-	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation.dir/rule
-.PHONY : detection_rate/CMakeFiles/rate_computation.dir/rule
+detection_rate/CMakeFiles/rate_computation4.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation4.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation4.dir/rule
 
 # Convenience name for target.
-rate_computation: detection_rate/CMakeFiles/rate_computation.dir/rule
+rate_computation4: detection_rate/CMakeFiles/rate_computation4.dir/rule
 
-.PHONY : rate_computation
+.PHONY : rate_computation4
 
 # fast build rule for target.
-rate_computation/fast:
-	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/build
-.PHONY : rate_computation/fast
+rate_computation4/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation4.dir/build.make detection_rate/CMakeFiles/rate_computation4.dir/build
+.PHONY : rate_computation4/fast
+
+# Convenience name for target.
+detection_rate/CMakeFiles/rate_computation1.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation1.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation1.dir/rule
+
+# Convenience name for target.
+rate_computation1: detection_rate/CMakeFiles/rate_computation1.dir/rule
+
+.PHONY : rate_computation1
+
+# fast build rule for target.
+rate_computation1/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation1.dir/build.make detection_rate/CMakeFiles/rate_computation1.dir/build
+.PHONY : rate_computation1/fast
 
 # Convenience name for target.
 detection_rate/CMakeFiles/sensor6.dir/rule:
@@ -196,6 +211,21 @@ sensor6: detection_rate/CMakeFiles/sensor6.dir/rule
 sensor6/fast:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/build
 .PHONY : sensor6/fast
+
+# Convenience name for target.
+detection_rate/CMakeFiles/rate_computation2.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation2.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation2.dir/rule
+
+# Convenience name for target.
+rate_computation2: detection_rate/CMakeFiles/rate_computation2.dir/rule
+
+.PHONY : rate_computation2
+
+# fast build rule for target.
+rate_computation2/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation2.dir/build.make detection_rate/CMakeFiles/rate_computation2.dir/build
+.PHONY : rate_computation2/fast
 
 # Convenience name for target.
 detection_rate/CMakeFiles/sensor4.dir/rule:
@@ -483,6 +513,21 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+detection_rate/CMakeFiles/rate_computation5.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation5.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation5.dir/rule
+
+# Convenience name for target.
+rate_computation5: detection_rate/CMakeFiles/rate_computation5.dir/rule
+
+.PHONY : rate_computation5
+
+# fast build rule for target.
+rate_computation5/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation5.dir/build.make detection_rate/CMakeFiles/rate_computation5.dir/build
+.PHONY : rate_computation5/fast
+
+# Convenience name for target.
 detection_rate/CMakeFiles/detection_rate_generate_messages.dir/rule:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/detection_rate_generate_messages.dir/rule
 .PHONY : detection_rate/CMakeFiles/detection_rate_generate_messages.dir/rule
@@ -573,6 +618,21 @@ _detection_rate_generate_messages_check_deps_Sensor/fast:
 .PHONY : _detection_rate_generate_messages_check_deps_Sensor/fast
 
 # Convenience name for target.
+detection_rate/CMakeFiles/rate_computation6.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation6.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation6.dir/rule
+
+# Convenience name for target.
+rate_computation6: detection_rate/CMakeFiles/rate_computation6.dir/rule
+
+.PHONY : rate_computation6
+
+# fast build rule for target.
+rate_computation6/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation6.dir/build.make detection_rate/CMakeFiles/rate_computation6.dir/build
+.PHONY : rate_computation6/fast
+
+# Convenience name for target.
 detection_rate/CMakeFiles/detection_rate_gencpp.dir/rule:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/detection_rate_gencpp.dir/rule
 .PHONY : detection_rate/CMakeFiles/detection_rate_gencpp.dir/rule
@@ -633,6 +693,21 @@ detection_rate_gennodejs/fast:
 .PHONY : detection_rate_gennodejs/fast
 
 # Convenience name for target.
+detection_rate/CMakeFiles/rate_computation3.dir/rule:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/rate_computation3.dir/rule
+.PHONY : detection_rate/CMakeFiles/rate_computation3.dir/rule
+
+# Convenience name for target.
+rate_computation3: detection_rate/CMakeFiles/rate_computation3.dir/rule
+
+.PHONY : rate_computation3
+
+# fast build rule for target.
+rate_computation3/fast:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation3.dir/build.make detection_rate/CMakeFiles/rate_computation3.dir/build
+.PHONY : rate_computation3/fast
+
+# Convenience name for target.
 detection_rate/CMakeFiles/detection_rate_generate_messages_cpp.dir/rule:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f CMakeFiles/Makefile2 detection_rate/CMakeFiles/detection_rate_generate_messages_cpp.dir/rule
 .PHONY : detection_rate/CMakeFiles/detection_rate_generate_messages_cpp.dir/rule
@@ -677,32 +752,167 @@ sensor2/fast:
 	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/sensor2.dir/build.make detection_rate/CMakeFiles/sensor2.dir/build
 .PHONY : sensor2/fast
 
-src/rate_computation.o: src/rate_computation.cpp.o
+src/rate_computation1.o: src/rate_computation1.cpp.o
 
-.PHONY : src/rate_computation.o
+.PHONY : src/rate_computation1.o
 
 # target to build an object file
-src/rate_computation.cpp.o:
-	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/src/rate_computation.cpp.o
-.PHONY : src/rate_computation.cpp.o
+src/rate_computation1.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation1.dir/build.make detection_rate/CMakeFiles/rate_computation1.dir/src/rate_computation1.cpp.o
+.PHONY : src/rate_computation1.cpp.o
 
-src/rate_computation.i: src/rate_computation.cpp.i
+src/rate_computation1.i: src/rate_computation1.cpp.i
 
-.PHONY : src/rate_computation.i
+.PHONY : src/rate_computation1.i
 
 # target to preprocess a source file
-src/rate_computation.cpp.i:
-	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/src/rate_computation.cpp.i
-.PHONY : src/rate_computation.cpp.i
+src/rate_computation1.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation1.dir/build.make detection_rate/CMakeFiles/rate_computation1.dir/src/rate_computation1.cpp.i
+.PHONY : src/rate_computation1.cpp.i
 
-src/rate_computation.s: src/rate_computation.cpp.s
+src/rate_computation1.s: src/rate_computation1.cpp.s
 
-.PHONY : src/rate_computation.s
+.PHONY : src/rate_computation1.s
 
 # target to generate assembly for a file
-src/rate_computation.cpp.s:
-	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/src/rate_computation.cpp.s
-.PHONY : src/rate_computation.cpp.s
+src/rate_computation1.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation1.dir/build.make detection_rate/CMakeFiles/rate_computation1.dir/src/rate_computation1.cpp.s
+.PHONY : src/rate_computation1.cpp.s
+
+src/rate_computation2.o: src/rate_computation2.cpp.o
+
+.PHONY : src/rate_computation2.o
+
+# target to build an object file
+src/rate_computation2.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation2.dir/build.make detection_rate/CMakeFiles/rate_computation2.dir/src/rate_computation2.cpp.o
+.PHONY : src/rate_computation2.cpp.o
+
+src/rate_computation2.i: src/rate_computation2.cpp.i
+
+.PHONY : src/rate_computation2.i
+
+# target to preprocess a source file
+src/rate_computation2.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation2.dir/build.make detection_rate/CMakeFiles/rate_computation2.dir/src/rate_computation2.cpp.i
+.PHONY : src/rate_computation2.cpp.i
+
+src/rate_computation2.s: src/rate_computation2.cpp.s
+
+.PHONY : src/rate_computation2.s
+
+# target to generate assembly for a file
+src/rate_computation2.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation2.dir/build.make detection_rate/CMakeFiles/rate_computation2.dir/src/rate_computation2.cpp.s
+.PHONY : src/rate_computation2.cpp.s
+
+src/rate_computation3.o: src/rate_computation3.cpp.o
+
+.PHONY : src/rate_computation3.o
+
+# target to build an object file
+src/rate_computation3.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation3.dir/build.make detection_rate/CMakeFiles/rate_computation3.dir/src/rate_computation3.cpp.o
+.PHONY : src/rate_computation3.cpp.o
+
+src/rate_computation3.i: src/rate_computation3.cpp.i
+
+.PHONY : src/rate_computation3.i
+
+# target to preprocess a source file
+src/rate_computation3.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation3.dir/build.make detection_rate/CMakeFiles/rate_computation3.dir/src/rate_computation3.cpp.i
+.PHONY : src/rate_computation3.cpp.i
+
+src/rate_computation3.s: src/rate_computation3.cpp.s
+
+.PHONY : src/rate_computation3.s
+
+# target to generate assembly for a file
+src/rate_computation3.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation3.dir/build.make detection_rate/CMakeFiles/rate_computation3.dir/src/rate_computation3.cpp.s
+.PHONY : src/rate_computation3.cpp.s
+
+src/rate_computation4.o: src/rate_computation4.cpp.o
+
+.PHONY : src/rate_computation4.o
+
+# target to build an object file
+src/rate_computation4.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation4.dir/build.make detection_rate/CMakeFiles/rate_computation4.dir/src/rate_computation4.cpp.o
+.PHONY : src/rate_computation4.cpp.o
+
+src/rate_computation4.i: src/rate_computation4.cpp.i
+
+.PHONY : src/rate_computation4.i
+
+# target to preprocess a source file
+src/rate_computation4.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation4.dir/build.make detection_rate/CMakeFiles/rate_computation4.dir/src/rate_computation4.cpp.i
+.PHONY : src/rate_computation4.cpp.i
+
+src/rate_computation4.s: src/rate_computation4.cpp.s
+
+.PHONY : src/rate_computation4.s
+
+# target to generate assembly for a file
+src/rate_computation4.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation4.dir/build.make detection_rate/CMakeFiles/rate_computation4.dir/src/rate_computation4.cpp.s
+.PHONY : src/rate_computation4.cpp.s
+
+src/rate_computation5.o: src/rate_computation5.cpp.o
+
+.PHONY : src/rate_computation5.o
+
+# target to build an object file
+src/rate_computation5.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation5.dir/build.make detection_rate/CMakeFiles/rate_computation5.dir/src/rate_computation5.cpp.o
+.PHONY : src/rate_computation5.cpp.o
+
+src/rate_computation5.i: src/rate_computation5.cpp.i
+
+.PHONY : src/rate_computation5.i
+
+# target to preprocess a source file
+src/rate_computation5.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation5.dir/build.make detection_rate/CMakeFiles/rate_computation5.dir/src/rate_computation5.cpp.i
+.PHONY : src/rate_computation5.cpp.i
+
+src/rate_computation5.s: src/rate_computation5.cpp.s
+
+.PHONY : src/rate_computation5.s
+
+# target to generate assembly for a file
+src/rate_computation5.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation5.dir/build.make detection_rate/CMakeFiles/rate_computation5.dir/src/rate_computation5.cpp.s
+.PHONY : src/rate_computation5.cpp.s
+
+src/rate_computation6.o: src/rate_computation6.cpp.o
+
+.PHONY : src/rate_computation6.o
+
+# target to build an object file
+src/rate_computation6.cpp.o:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation6.dir/build.make detection_rate/CMakeFiles/rate_computation6.dir/src/rate_computation6.cpp.o
+.PHONY : src/rate_computation6.cpp.o
+
+src/rate_computation6.i: src/rate_computation6.cpp.i
+
+.PHONY : src/rate_computation6.i
+
+# target to preprocess a source file
+src/rate_computation6.cpp.i:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation6.dir/build.make detection_rate/CMakeFiles/rate_computation6.dir/src/rate_computation6.cpp.i
+.PHONY : src/rate_computation6.cpp.i
+
+src/rate_computation6.s: src/rate_computation6.cpp.s
+
+.PHONY : src/rate_computation6.s
+
+# target to generate assembly for a file
+src/rate_computation6.cpp.s:
+	cd /home/woomessi/projects/ROS/RAL_ws/build && $(MAKE) -f detection_rate/CMakeFiles/rate_computation6.dir/build.make detection_rate/CMakeFiles/rate_computation6.dir/src/rate_computation6.cpp.s
+.PHONY : src/rate_computation6.cpp.s
 
 src/sensor1.o: src/sensor1.cpp.o
 
@@ -876,8 +1086,10 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
-	@echo "... rate_computation"
+	@echo "... rate_computation4"
+	@echo "... rate_computation1"
 	@echo "... sensor6"
+	@echo "... rate_computation2"
 	@echo "... sensor4"
 	@echo "... sensor5"
 	@echo "... sensor3"
@@ -899,23 +1111,41 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... rate_computation5"
 	@echo "... detection_rate_generate_messages"
 	@echo "... sensor1"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... detection_rate_genlisp"
 	@echo "... detection_rate_generate_messages_py"
 	@echo "... _detection_rate_generate_messages_check_deps_Sensor"
+	@echo "... rate_computation6"
 	@echo "... detection_rate_gencpp"
 	@echo "... detection_rate_generate_messages_eus"
 	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... detection_rate_gennodejs"
+	@echo "... rate_computation3"
 	@echo "... detection_rate_generate_messages_cpp"
 	@echo "... detection_rate_genpy"
 	@echo "... sensor2"
-	@echo "... src/rate_computation.o"
-	@echo "... src/rate_computation.i"
-	@echo "... src/rate_computation.s"
+	@echo "... src/rate_computation1.o"
+	@echo "... src/rate_computation1.i"
+	@echo "... src/rate_computation1.s"
+	@echo "... src/rate_computation2.o"
+	@echo "... src/rate_computation2.i"
+	@echo "... src/rate_computation2.s"
+	@echo "... src/rate_computation3.o"
+	@echo "... src/rate_computation3.i"
+	@echo "... src/rate_computation3.s"
+	@echo "... src/rate_computation4.o"
+	@echo "... src/rate_computation4.i"
+	@echo "... src/rate_computation4.s"
+	@echo "... src/rate_computation5.o"
+	@echo "... src/rate_computation5.i"
+	@echo "... src/rate_computation5.s"
+	@echo "... src/rate_computation6.o"
+	@echo "... src/rate_computation6.i"
+	@echo "... src/rate_computation6.s"
 	@echo "... src/sensor1.o"
 	@echo "... src/sensor1.i"
 	@echo "... src/sensor1.s"

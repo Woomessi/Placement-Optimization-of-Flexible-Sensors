@@ -285,17 +285,30 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named rate_computation
+# Target rules for targets named rate_computation4
 
 # Build rule for target.
-rate_computation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rate_computation
-.PHONY : rate_computation
+rate_computation4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation4
+.PHONY : rate_computation4
 
 # fast build rule for target.
-rate_computation/fast:
-	$(MAKE) -f detection_rate/CMakeFiles/rate_computation.dir/build.make detection_rate/CMakeFiles/rate_computation.dir/build
-.PHONY : rate_computation/fast
+rate_computation4/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation4.dir/build.make detection_rate/CMakeFiles/rate_computation4.dir/build
+.PHONY : rate_computation4/fast
+
+#=============================================================================
+# Target rules for targets named rate_computation1
+
+# Build rule for target.
+rate_computation1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation1
+.PHONY : rate_computation1
+
+# fast build rule for target.
+rate_computation1/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation1.dir/build.make detection_rate/CMakeFiles/rate_computation1.dir/build
+.PHONY : rate_computation1/fast
 
 #=============================================================================
 # Target rules for targets named sensor6
@@ -309,6 +322,19 @@ sensor6: cmake_check_build_system
 sensor6/fast:
 	$(MAKE) -f detection_rate/CMakeFiles/sensor6.dir/build.make detection_rate/CMakeFiles/sensor6.dir/build
 .PHONY : sensor6/fast
+
+#=============================================================================
+# Target rules for targets named rate_computation2
+
+# Build rule for target.
+rate_computation2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation2
+.PHONY : rate_computation2
+
+# fast build rule for target.
+rate_computation2/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation2.dir/build.make detection_rate/CMakeFiles/rate_computation2.dir/build
+.PHONY : rate_computation2/fast
 
 #=============================================================================
 # Target rules for targets named sensor4
@@ -558,6 +584,19 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named rate_computation5
+
+# Build rule for target.
+rate_computation5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation5
+.PHONY : rate_computation5
+
+# fast build rule for target.
+rate_computation5/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation5.dir/build.make detection_rate/CMakeFiles/rate_computation5.dir/build
+.PHONY : rate_computation5/fast
+
+#=============================================================================
 # Target rules for targets named detection_rate_generate_messages
 
 # Build rule for target.
@@ -636,6 +675,19 @@ _detection_rate_generate_messages_check_deps_Sensor/fast:
 .PHONY : _detection_rate_generate_messages_check_deps_Sensor/fast
 
 #=============================================================================
+# Target rules for targets named rate_computation6
+
+# Build rule for target.
+rate_computation6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation6
+.PHONY : rate_computation6
+
+# fast build rule for target.
+rate_computation6/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation6.dir/build.make detection_rate/CMakeFiles/rate_computation6.dir/build
+.PHONY : rate_computation6/fast
+
+#=============================================================================
 # Target rules for targets named detection_rate_gencpp
 
 # Build rule for target.
@@ -686,6 +738,19 @@ detection_rate_gennodejs: cmake_check_build_system
 detection_rate_gennodejs/fast:
 	$(MAKE) -f detection_rate/CMakeFiles/detection_rate_gennodejs.dir/build.make detection_rate/CMakeFiles/detection_rate_gennodejs.dir/build
 .PHONY : detection_rate_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named rate_computation3
+
+# Build rule for target.
+rate_computation3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rate_computation3
+.PHONY : rate_computation3
+
+# fast build rule for target.
+rate_computation3/fast:
+	$(MAKE) -f detection_rate/CMakeFiles/rate_computation3.dir/build.make detection_rate/CMakeFiles/rate_computation3.dir/build
+.PHONY : rate_computation3/fast
 
 #=============================================================================
 # Target rules for targets named detection_rate_generate_messages_cpp
@@ -748,8 +813,10 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... rate_computation"
+	@echo "... rate_computation4"
+	@echo "... rate_computation1"
 	@echo "... sensor6"
+	@echo "... rate_computation2"
 	@echo "... sensor4"
 	@echo "... sensor5"
 	@echo "... sensor3"
@@ -769,16 +836,19 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... rate_computation5"
 	@echo "... detection_rate_generate_messages"
 	@echo "... sensor1"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... detection_rate_genlisp"
 	@echo "... detection_rate_generate_messages_py"
 	@echo "... _detection_rate_generate_messages_check_deps_Sensor"
+	@echo "... rate_computation6"
 	@echo "... detection_rate_gencpp"
 	@echo "... detection_rate_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... detection_rate_gennodejs"
+	@echo "... rate_computation3"
 	@echo "... detection_rate_generate_messages_cpp"
 	@echo "... detection_rate_genpy"
 	@echo "... sensor2"

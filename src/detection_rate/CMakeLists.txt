@@ -142,7 +142,13 @@ add_executable(sensor4 src/sensor4.cpp)
 add_executable(sensor5 src/sensor5.cpp)
 add_executable(sensor6 src/sensor6.cpp)
 
-add_executable(rate_computation src/rate_computation.cpp)
+add_executable(rate_computation1 src/rate_computation1.cpp)
+add_executable(rate_computation2 src/rate_computation2.cpp)
+add_executable(rate_computation3 src/rate_computation3.cpp)
+add_executable(rate_computation4 src/rate_computation4.cpp)
+add_executable(rate_computation5 src/rate_computation5.cpp)
+add_executable(rate_computation6 src/rate_computation6.cpp)
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -179,7 +185,27 @@ target_link_libraries(sensor6
   ${catkin_LIBRARIES}
 )
 
-target_link_libraries(rate_computation
+target_link_libraries(rate_computation1
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(rate_computation2
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(rate_computation3
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(rate_computation4
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(rate_computation5
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(rate_computation6
   ${catkin_LIBRARIES}
 )
 #############
