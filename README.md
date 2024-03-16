@@ -25,3 +25,8 @@ The comparison between the optimized placement results and the conventional ones
 
 
 Emphasizing the merits of flexibility, this paper provides new insights into the application and the design of the flexible sensor for HRC. 
+
+## Details of codes
+Branch `release` contains the programs of the proposed method. It runs on at least MATLAB R2016b. Please modify the file path in the `addpath( )` and `stlread( )` functions according to your download path. `geodesic_generation.m` is the straightest geodesic generation algorithm, `detection_simulation.m` is the simulation for the detection process, and `bayesian_optimization.m` is the specific optimization algorithm.  
+
+Branch `experiment` contains the ROS workspace of the detection experiment implementation. Sensors transmit the data via serial ports and a ROS subscriber receives these data and processes them.
