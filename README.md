@@ -19,6 +19,9 @@ Based on a global search algorithm, we obtain the optimized sensor placement wit
 
 An experiment was conducted to verify the reliability of the method. 
 
+<img src="img/fig_exp.png">
+
+
 The comparison between the optimized placement results and the conventional ones indicates that the proposed method could achieve better detection performance with much fewer sensors. This method also takes the flexibility into account by customizing the placement for different tasks. 
 
 <img src="img/box_1-4.png" title="Box plots of the results.">
