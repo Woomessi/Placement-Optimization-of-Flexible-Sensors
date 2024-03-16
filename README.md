@@ -1,12 +1,9 @@
-# MATLAB_Optimal_Placement
+# Placement Optimization of Flexible Sensors for Human-Robot Collaboration
 ## Abstract
 Flexible proximity sensors mounted on robot arms boost obstacle detection in human-robot collaboration (HRC). However, most of the flexible sensor placements lack further analysis to exploit the flexibility, leading to an inefficient and overpriced sensing system. 
 
 In this work, we propose a systematic method to optimize the placement of the flexible proximity sensor for HRC. To prepare for the optimization, the geometric model of a flexible sensor is built.
-{{< figure
-    src="img/fig_photo.png"
-    caption="Geodesic model of a flexible sensor's mounting location."
-    >}}
+<img src="img/fig_photo.png" title="Geodesic model of a flexible sensor's mounting location.">
 
 An evaluation metric for the detection ability is established. 
 {{< figure
